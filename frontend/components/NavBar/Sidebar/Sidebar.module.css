@@ -1,0 +1,16 @@
+.sidebar_box {
+    padding: 2rem;
+    border-bottom: 1px solid var(--icons-color);
+}
+
+.sidebar_closeBtn{
+    position: absolute;
+    top:3rem;
+    right:2rem;
+    transition: all .2s ease-in-out;
+    cursor:pointer;
+    box-shadow: var(--box-shadow);
+}
+.sidebar_closeBtn:hover{
+    transform: rotate(45deg);
+}
